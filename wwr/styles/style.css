@@ -1,0 +1,99 @@
+nav a {
+    text-align: center;
+    color: black;
+    text-decoration: none;
+}
+
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+.button-box {
+    text-align: center;
+}
+
+main section {
+    text-align:center;
+}
+
+#background {
+    height: 725px;
+    background-color: blanchedalmond;
+}
+
+body {
+    background-color: antiquewhite;
+}
+
+header {
+    background-color: azure;
+}
+
+nav a:hover {
+    background-color: yellow;
+    color: blue;
+}
+
+.book, .join {
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+}
+
+.book:hover, .join:hover {
+    background-color: aqua;
+    color: blanchedalmond;
+}
+
+.msg {
+    background-color: aliceblue;
+}
+
+footer {
+    background-color: brown;
+}
+
+.home-title {
+    color: antiquewhite;
+}
+
+h4 {
+    color: blue;
+}
+
+msg h2 {
+    color: blue;
+}
+msg p {
+    color: black;
+}
+
+footer h3 {
+    color: black;
+    text-decoration: underline;
+}
+
+footer a {
+    color: black;
+    text-decoration: none;
+}
+
+.icon {
+    width: 80px;
+}
+
+.logo {
+    width: 80px;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+div {
+    max-width: 1600px;
+}
