@@ -1,7 +1,39 @@
+body {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+.home-title {
+    font-size: 2em;
+}
+
+.book, .join {
+    font-size: 18px;
+    padding: 15px 30px;
+}
+
+.msg p {
+    font-size: .8em;
+}
+
+h2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.msg {
+    line-height: 1.5em;
+    background-color: aliceblue;
+    padding: 35px;
+}
+
 nav a {
     text-align: center;
     color: black;
     text-decoration: none;
+    padding: 35px;
 }
 
 #hero-msg h1, #hero-msg h4 {
@@ -38,6 +70,8 @@ nav a:hover {
     background-color: whitesmoke;
     color: black;
     text-decoration: none;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover, .join:hover {
@@ -45,16 +79,16 @@ nav a:hover {
     color: blanchedalmond;
 }
 
-.msg {
-    background-color: aliceblue;
-}
-
 footer {
     background-color: brown;
+    padding: 25px 50px;
+    padding-top: 15px;
+    margin-top: 200px;
 }
 
 .home-title {
     color: antiquewhite;
+    margin-top: 10px;
 }
 
 h4 {
@@ -66,6 +100,7 @@ msg h2 {
 }
 msg p {
     color: black;
+    padding-bottom: 15px;
 }
 
 footer h3 {
@@ -80,6 +115,7 @@ footer a {
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 
 .logo {
@@ -97,3 +133,24 @@ a:hover {
 div {
     max-width: 1600px;
 }
+
+#logo_link {
+    padding-top: 5px;
+}
+
+.social img {
+    padding-top: 15px;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+
+main section img {
+    box-sizing: border-box;
+}
+
