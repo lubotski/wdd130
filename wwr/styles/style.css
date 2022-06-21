@@ -237,7 +237,8 @@ nav {
 }
 
 .img {
-    width: 80%;
+    width: 60%;
+    padding: 20px;
 }
 
 .faq-content {
