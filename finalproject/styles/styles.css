@@ -1,0 +1,60 @@
+.logo {
+    width: 80px;
+    padding: 20px;
+}
+
+header {
+    background-color: #00509D;
+    padding-bottom: 20px;
+}
+
+.fullwidth-img {
+    width: 100%;
+}
+
+nav a {
+    padding: 35px;
+    margin-top: 50px;
+    text-align: center;
+    color: #edede9;
+    font-family: Tahoma;
+    text-decoration: none;
+}
+
+#fullwidth-slogan h1 {
+    text-align: right;
+    color:#edede9;
+    padding: 50px;
+    font-family: Arial;
+}
+
+h2 {
+    font-family: Arial;
+    padding-left: 60px;
+    font-weight: 800;
+}
+
+#about-img {
+    padding-left: 60px;
+    grid-row: 1/2;
+}
+
+.about {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+}
+
+#about-msg p{
+    padding-left: 60px;
+    grid-row: 3/4;
+}
+footer {
+    background-color: #00509D;
+}
+
+.links a {
+    color: #edede9;
+    margin-left: 35px;
+    font-family: Tahoma;
+    text-decoration: none;
+}
