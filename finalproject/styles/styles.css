@@ -8,10 +8,6 @@ header {
     padding-bottom: 20px;
 }
 
-.fullwidth-img {
-    width: 100%;
-}
-
 nav a {
     padding: 35px;
     margin-top: 50px;
@@ -21,13 +17,6 @@ nav a {
     text-decoration: none;
 }
 
-#fullwidth-slogan h1 {
-    text-align: right;
-    color:#edede9;
-    padding: 50px;
-    font-family: Arial;
-}
-
 h2 {
     font-family: Arial;
     padding-left: 60px;
@@ -35,18 +24,16 @@ h2 {
 }
 
 #about-img {
-    padding-left: 60px;
-    grid-row: 1/2;
+       grid-row: 1/2;
 }
 
 .about {
     display: grid;
-    grid-template-columns: 2fr 2fr;
+    grid-template-columns: 3fr 3fr;
 }
 
 #about-msg p{
-    padding-left: 60px;
-    grid-row: 3/4;
+    grid-column: 3/4;
 }
 footer {
     background-color: #00509D;
@@ -57,4 +44,20 @@ footer {
     margin-left: 35px;
     font-family: Tahoma;
     text-decoration: none;
+}
+
+p{
+    font-family: Arial;
+}
+
+h1{
+    text-align: right;
+    color: #edede9;
+    padding: 50px;
+    font-family: Arial;
+    
+}
+
+.fullwidth-img {
+    width: 100%;
 }
