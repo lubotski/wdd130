@@ -5,12 +5,12 @@
 
 header {
     background-color: #00509D;
-    padding-bottom: 20px;
+    padding-bottom: 0;
 }
 
 nav a {
-    padding: 35px;
-    margin-top: 50px;
+    padding: 20px;
+    margin-top: 30px;
     text-align: center;
     color: #edede9;
     font-family: Tahoma;
@@ -27,37 +27,105 @@ h2 {
        grid-row: 1/2;
 }
 
-.about {
-    display: grid;
-    grid-template-columns: 3fr 3fr;
-}
-
 #about-msg p{
     grid-column: 3/4;
+    grid-row: 2/3;
 }
 footer {
     background-color: #00509D;
-}
-
-.links a {
-    color: #edede9;
-    margin-left: 35px;
-    font-family: Tahoma;
-    text-decoration: none;
 }
 
 p{
     font-family: Arial;
 }
 
-h1{
+#fullwidth-slogan h1{
     text-align: right;
     color: #edede9;
     padding: 50px;
     font-family: Arial;
-    
 }
 
 .fullwidth-img {
     width: 100%;
+}
+
+#training-title h1 {
+    font-family: Arial;
+    padding-left: 40px;
+}
+
+.training-content {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 5px;
+}
+
+#training-img1 {
+    grid-column: 1/2;
+    padding-left: 40px;
+    width: 90%;
+}
+
+#adult-msg p {
+    grid-column: 2/3;
+    font-family: Tahoma;
+    font-size: 20px;
+    padding-right: 40px;
+}
+
+.learn1 {
+    font-family: trebuchet MS;
+    grid-column: 2/3;
+}
+
+#kids-msg p {
+    grid-column: 2/3;
+    font-size: 20px;
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+#training-img2 {
+    grid-column: 2/3;
+    padding-right: 40px;
+    width: 90%;
+}
+
+#button-box1 a {
+    grid-column: 2/3;
+}
+
+.content a {
+    display: flex;
+    justify-content: space-around;
+}
+
+.consult-content {
+    display: grid;
+    grid-template-columns: 60% auto;
+    grid-gap: 0;
+}
+
+#consult-img {
+    width: 70%;
+    padding-left: 40px;
+    grid-column: 1/2;
+}
+
+#consultancy-title h1{
+    font-family: trebuchet MS;
+    padding-left: 40px; 
+}
+
+#consult-msg p {
+    border: 1px solid black;
+    background-color: #EDEDE9;
+    border-radius: 5px;
+    padding: 20px;
+    
+}
+
+.social a {
+    padding: 2px;
 }
