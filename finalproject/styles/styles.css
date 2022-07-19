@@ -4,39 +4,84 @@
 }
 
 header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
     background-color: #00509D;
-    padding-bottom: 0;
 }
 
 nav a {
-    padding: 20px;
-    margin-top: 30px;
-    text-align: center;
-    color: #edede9;
-    font-family: Tahoma;
+    color: #EDEDE9;
     text-decoration: none;
+    padding:20px;
+    font-family: Tahoma;
+    font-size: 1em;
 }
+
+nav {
+    display: flex;
+}
+
 
 h2 {
     font-family: Arial;
-    padding-left: 60px;
+    padding-top: 10%;
     font-weight: 800;
+    padding-left: 30px;
 }
 
-#about-img {
-       grid-row: 1/2;
-}
-
-#about-msg p{
-    grid-column: 3/4;
-    grid-row: 2/3;
+#main #about-text p{
+    grid-column: 2/3;
+    font-size: 1em;
+    padding-right: 30px;
 }
 footer {
+    display: flex;
+    justify-content: space-around;
     background-color: #00509D;
 }
 
-p{
+p {
     font-family: Arial;
+}
+
+
+#fullwidth {
+    display: flex;
+    flex-direction: row;    
+}
+
+#fullwidth #fullwidth-box img{
+    position: absolute;
+    width: 100%
+    
+}
+
+#fullwidth #fullwidth-slogan {
+    margin-left: 900px;
+    margin-top: 300px;
+}
+
+#fullwidth #fullwidth-slogan h1 {
+    position: absolute;
+    z-index: 1;
+    text-align: right;
+    color: #edede9;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 3em;   
+}
+
+.about-text {
+    grid-column: 2/3;
+}
+
+
+
+/* Main */
+
+
+main{
+    margin: 37px 0 0 0;
 }
 
 #fullwidth-slogan h1{
@@ -44,10 +89,6 @@ p{
     color: #edede9;
     padding: 50px;
     font-family: Arial;
-}
-
-.fullwidth-img {
-    width: 100%;
 }
 
 #training-title h1 {
@@ -79,11 +120,17 @@ p{
     grid-column: 2/3;
 }
 
-#kids-msg p {
-    grid-column: 2/3;
+#kids-msg {
+    grid-column: 1/2;
+    grid-row: 2/3;
     font-size: 20px;
     padding-right: 40px;
     padding-left: 40px;
+}
+
+#training-kids {
+    grid-column: 2/3;
+    grid-row: 2/3;
 }
 
 #training-img2 {
@@ -101,16 +148,18 @@ p{
     justify-content: space-around;
 }
 
-.consult-content {
-    display: grid;
-    grid-template-columns: 60% auto;
-    grid-gap: 0;
-}
-
 #consult-img {
-    width: 70%;
+    width: 60%;
     padding-left: 40px;
     grid-column: 1/2;
+    position: relative;
+}
+
+#consult-msg {
+    position: absolute;
+    top: 300px;
+    width: 499px;
+    right: 130px;
 }
 
 #consultancy-title h1{
@@ -123,9 +172,30 @@ p{
     background-color: #EDEDE9;
     border-radius: 5px;
     padding: 20px;
-    
 }
 
 .social a {
     padding: 2px;
+}
+
+.learn1{
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+}
+
+#main {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+#about-img {
+    padding-left: 30px;
+}
+
+.about{
+    padding-bottom: 30px;
+    padding-top: 70px;
 }
