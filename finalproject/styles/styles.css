@@ -13,7 +13,7 @@ nav a {
     color: #EDEDE9;
     text-decoration: none;
     padding:20px;
-    font-family: Tahoma;
+    font-family: Segoe UI;
     font-size: 1em;
 }
 
@@ -21,11 +21,10 @@ nav {
     display: flex;
 }
 
-
 h2 {
-    font-family: Arial;
+    font-family: Tahoma;
     padding-top: 10%;
-    font-weight: 800;
+    font-weight: 1000%;
     padding-left: 30px;
 }
 
@@ -67,7 +66,7 @@ p {
     text-align: right;
     color: #edede9;
     padding: 10px;
-    font-family: Arial;
+    font-family: Tahoma;
     font-size: 3em;   
 }
 
@@ -92,7 +91,7 @@ main{
 }
 
 #training-title h1 {
-    font-family: Arial;
+    font-family: Tahoma;
     padding-left: 40px;
 }
 
@@ -110,14 +109,9 @@ main{
 
 #adult-msg p {
     grid-column: 2/3;
-    font-family: Tahoma;
+    font-family: Arial;
     font-size: 20px;
     padding-right: 40px;
-}
-
-.learn1 {
-    font-family: trebuchet MS;
-    grid-column: 2/3;
 }
 
 #kids-msg {
@@ -163,7 +157,7 @@ main{
 }
 
 #consultancy-title h1{
-    font-family: trebuchet MS;
+    font-family: tahoma;
     padding-left: 40px; 
 }
 
